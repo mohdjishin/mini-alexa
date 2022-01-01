@@ -42,8 +42,6 @@ def run_alexa():
         info =wikipedia.summary(person, 2)
         print(info)
         talk(info)
-    elif "are you single" in command:
-        talk("no, you are only single in this world")
     elif "joke" in command:
         joke = pyjokes.get_joke()
         talk(joke)
